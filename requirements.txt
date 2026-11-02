@@ -1,0 +1,6 @@
+# Anvil Fletch
+# py -m pip install --user -r requirements.txt
+ollama>=0.1.0
+yt-dlp
+imageio-ffmpeg
+pywinauto

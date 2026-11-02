@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# User state and history — never commit
+data/
+config/settings.json
+
+# Runtime-downloaded tools and model weights
+tools/
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Keep the shipped exe, drop local junk
+bin/*.lnk
+bin/desktop.ini
+desktop.ini
+
+# Scratch
+*.tmp
+*.log
